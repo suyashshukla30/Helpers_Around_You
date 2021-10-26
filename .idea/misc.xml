@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Shruti/AndroidStudioProjects/HelpersAroundYou/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shruti/AndroidStudioProjects/HelpersAroundYou/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shruti/AndroidStudioProjects/HelpersAroundYou/app/src/main/res/layout/activity_signup.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Shruti/AndroidStudioProjects/HelpersAroundYou/app/src/main/res/layout/activity_splash_screen.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Helpers_Around_You/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>
