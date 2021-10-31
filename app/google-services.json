@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "937284314990",
+    "project_id": "helpers-around-you",
+    "storage_bucket": "helpers-around-you.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937284314990:android:b6ae72afaa3fb41edac37f",
+        "android_client_info": {
+          "package_name": "com.trackme.helpersaroundyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937284314990-9e3vtavpj8ake5idc2uu5t90aj3c6cbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn5GPTuIH53QNojDfbrm2K7H-QCNyihtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937284314990-9e3vtavpj8ake5idc2uu5t90aj3c6cbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
