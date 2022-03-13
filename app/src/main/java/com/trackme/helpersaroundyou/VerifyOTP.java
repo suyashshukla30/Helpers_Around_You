@@ -201,14 +201,14 @@ public class VerifyOTP extends AppCompatActivity {
                         if (task.isSuccessful())
                         {
                             ProgressDialog dialog = new ProgressDialog(VerifyOTP.this);
-                            dialog.setMessage("LOGIN...!!!");
+                            dialog.setMessage("LOGGING-IN");
                             dialog.setCancelable(false);
                             dialog.show();
                             startActivity(new Intent(VerifyOTP.this , Mainactivity.class));
                             finish();
 
                         } else {
-                            Toast.makeText(getApplicationContext(),"Signin Code Error",Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),"Sign-in Code Error",Toast.LENGTH_LONG).show();
                         }
                     }
                 });
