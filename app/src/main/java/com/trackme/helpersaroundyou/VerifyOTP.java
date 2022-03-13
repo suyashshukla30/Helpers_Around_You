@@ -204,7 +204,7 @@ public class VerifyOTP extends AppCompatActivity {
                             dialog.setMessage("LOGIN...!!!");
                             dialog.setCancelable(false);
                             dialog.show();
-                            startActivity(new Intent(VerifyOTP.this ,MainActivity.class));
+                            startActivity(new Intent(VerifyOTP.this ,Settings.class));
                             finish();
 
                         } else {
