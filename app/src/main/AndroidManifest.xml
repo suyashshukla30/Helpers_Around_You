@@ -17,7 +17,7 @@
             android:name=".Login"
             android:noHistory="true"
             android:exported="true" />
-        <activity android:name=".Settings"
+        <activity android:name=".Mainfearures.Mainactivity"
             android:theme="@style/your_group"
             android:exported="true"/>
         <activity

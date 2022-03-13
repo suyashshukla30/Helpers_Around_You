@@ -1,10 +1,12 @@
-package com.trackme.helpersaroundyou;
+package com.trackme.helpersaroundyou.Mainfearures;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Settings extends AppCompatActivity {
+import com.trackme.helpersaroundyou.R;
+
+public class Mainactivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

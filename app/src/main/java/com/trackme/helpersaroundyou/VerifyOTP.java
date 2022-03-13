@@ -15,12 +15,12 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
+import com.trackme.helpersaroundyou.Mainfearures.Mainactivity;
 
 import java.util.concurrent.TimeUnit;
 
@@ -204,7 +204,7 @@ public class VerifyOTP extends AppCompatActivity {
                             dialog.setMessage("LOGIN...!!!");
                             dialog.setCancelable(false);
                             dialog.show();
-                            startActivity(new Intent(VerifyOTP.this ,Settings.class));
+                            startActivity(new Intent(VerifyOTP.this , Mainactivity.class));
                             finish();
 
                         } else {
