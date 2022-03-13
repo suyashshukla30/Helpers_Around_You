@@ -11,15 +11,18 @@
         android:theme="@style/Theme.HelpersAroundYou">
         <activity
             android:name=".VerifyOTP"
+            android:noHistory="true"
             android:exported="false" />
         <activity
             android:name=".Login"
+            android:noHistory="true"
             android:exported="true" />
         <activity android:name=".Settings"
             android:theme="@style/your_group"
             android:exported="true"/>
         <activity
             android:name=".SplashScreen"
+            android:noHistory="true"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
