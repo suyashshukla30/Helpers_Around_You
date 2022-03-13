@@ -3,6 +3,8 @@
     <style name="Theme.HelpersAroundYou" parent="Theme.AppCompat.Light.NoActionBar">
 
         <item name="android:statusBarColor" tools:targetApi="l">#353535</item>
-        <!-- Customize your theme here. -->
+    </style>
+    <style name="your_group" parent="Theme.AppCompat.Light.DarkActionBar">
+
     </style>
 </resources>
