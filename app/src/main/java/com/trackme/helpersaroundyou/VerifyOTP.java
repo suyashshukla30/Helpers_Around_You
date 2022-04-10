@@ -20,6 +20,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.trackme.helpersaroundyou.Mainfearures.Mainactivity;
 
 import java.util.concurrent.TimeUnit;
@@ -204,6 +206,11 @@ public class VerifyOTP extends AppCompatActivity {
                             dialog.setMessage("LOGGING-IN");
                             dialog.setCancelable(false);
                             dialog.show();
+                            // Write a message to the database
+                            FirebaseDatabase database = FirebaseDatabase.getInstance();// test
+                            DatabaseReference myRef = database.getReference("message").child("+91 8957177658");
+
+                            myRef.child("Test").setValue("Hello, World!");
                             startActivity(new Intent(VerifyOTP.this , Mainactivity.class));
                             finish();
 
